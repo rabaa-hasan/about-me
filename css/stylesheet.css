@@ -90,3 +90,41 @@ h1{
     border: solid goldenrod ;
     border-radius: 20px;
 }
+
+.education{
+    
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#d7c57d;
+    color: black;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 325px;
+    
+
+}
+/* ul li {
+    list-style-type: none;
+} */
+hr{
+    width: 50%;
+    color: #C58916;
+}
+.top10{
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#d7c57d;
+    color: black;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 325px;
+
+}
