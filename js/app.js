@@ -120,7 +120,7 @@ for( let x=0; x<6; x++){
     break;
   }
   else{
-    favFood=prompt('unfortunately wrong answer ⭕ , it is too high ' + userName + ' 😔, Try one more time.');
+    favFood=prompt('unfortunately wrong answer ⭕ ' + userName + ' Try one more time.');
   }
 
 }
