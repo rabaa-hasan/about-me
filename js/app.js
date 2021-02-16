@@ -129,7 +129,7 @@ for( let x=0; x<6; x++){
 }
 alert('Omar Favorite food is '+ omarFood);
 
-alert('You scored ' + score + ' Ot of 7');
+alert('You scored ' + score + ' Out of 7');
 
 
 
