@@ -89,19 +89,22 @@ console.log(corAge);
 
 let omarAge = Number(prompt('How old is Omar?'));
 for ( let i=1 ; i < 4; i++) {
-  if(omarAge <26) {
-    alert(' it is too low ' + userName + 'Try one more time.');
+  if(isNaN(omarAge)){
+    alert('Please enter a number!');
+    omarAge = Number(prompt('How old is Omar?'));
+  }else if(omarAge <26) {
+    alert('it is too low ' + userName + '  Try one more time.');
     omarAge = Number(prompt('How old is Omar?'));
   } else if (omarAge>26) {
-    alert(' it is too high ' + userName + 'Try one more time.');
+    alert('it is too high ' + userName + ' :pensive:, Try one more time.');
     omarAge = Number(prompt('How old is Omar?'));
   } else if (omarAge===corAge) {
-    alert('Correct ' + userName + ' You scored the sixth point 🎆');
+    alert('Correct ' + userName + ' You scored the sixth point :fireworks:');
     break;
   }
 }
 if (omarAge!==corAge) {
-  alert('The Correct answer ' + userName + ' is 26');
+  alert('You exceed your attempts the Correct answer ' + userName + ' is 26');
 } else if (omarAge===26){
   score= score+1;
 }
