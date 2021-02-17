@@ -101,7 +101,7 @@ for ( let i=1 ; i < 4; i++) {
   }
 }
 if (omarAge!==corAge) {
-  alert('Correct ' + userName + '  :fireworks:');
+  alert('The Correct answer ' + userName + ' is 26');
 } else if (omarAge===26){
   score= score+1;
 }
